@@ -1,0 +1,17 @@
+.mainCon {
+  border: 1px solid rgb(116, 116, 116);
+  width: 60%;
+  height: 60%;
+  padding: 12px;
+}
+
+.mainCon h1{
+    text-align: center;
+}
+
+.flexArea{
+
+    display: flex;
+    margin-top: 12px;
+    height: 56%
+}

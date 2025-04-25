@@ -1,0 +1,54 @@
+.mainCon {
+  width: 50%;
+  padding: 12px;
+  margin: 12px;
+  overflow: auto;
+}
+.mainCon h2{
+    margin-bottom: 8px;
+}
+
+.listCon {
+  display: flex;
+  border: 1px solid black;
+  margin-bottom: 8px;
+  padding: 8px;
+  justify-content: space-between;
+  background-color: white;
+}
+.listCon * {
+    background-color: white;
+}
+
+.listIncome {
+ border: 2px solid green;
+}
+
+.listExpense{
+    border: 2px solid red
+}
+
+.moneyDetail{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.moneyDetail .income{
+    color: rgb(3, 174, 3);
+}
+
+.moneyDetail .expense{
+    color: red;
+}
+
+.listCon i{
+    cursor: pointer;
+}
+.listCon i:hover{
+    color: gray;
+}
+.listCon i:active{
+    color: rgb(56, 56, 56);
+}
+

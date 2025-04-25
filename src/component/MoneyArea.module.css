@@ -1,0 +1,66 @@
+.mainCon{
+    display: flex;
+    height: 30%;
+    justify-content: space-between;
+    margin-top: 12px;
+}
+.moneyCon{
+    border: 1px solid rgb(146, 146, 254);
+    margin: 12px;
+    width: 50%;
+    padding: 12px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+    border-radius: 8px;
+    background-color: white;
+}
+.moneyCon * {
+    background-color: white;
+}
+
+.useMoney{
+    border: 1px solid rgb(191, 5, 191);
+    margin: 12px;
+    width: 50%;
+    padding: 24px 12px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 8px;
+}
+.useMoney * {
+    background-color: inherit;
+}
+.incomeCon{
+    width: 50%;
+    padding: 12px;
+    border-right: 1px solid rgb(110, 109, 109);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.incomeCon p{
+    font-size: 18px;
+}
+.incomeCon strong{
+    color: rgb(101, 143, 39);
+}
+
+.expenseCon{
+    width: 50%;
+    padding: 12px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.expenseCon p{
+    font-size: 18px;
+}
+.expenseCon strong{
+    color: red;
+}
